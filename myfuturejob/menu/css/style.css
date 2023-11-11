@@ -1,0 +1,127 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+.body{
+	color: white;
+
+	background-image:url("../img/icons/Spider-man_Marvel_Heroes_comics_Red_background_605709_1920x1080.jpg");
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.block{
+	text-align: center;
+
+}
+.block__text{
+	background: #ff0000;
+	width: 200px;
+	height: 70px;
+	position: relative;
+	overflow: hidden;
+	left: 5px;
+	top: 100px;
+	letter-spacing: 7px;
+	border-radius: 50px;
+	font-weight: bold;
+	color: green;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+
+}
+
+
+.block__back{
+	width: 150px;
+	height: 100px;
+	position: relative;
+	left: 900px;
+	top: 100px;
+}
+.button__button{
+	position: relative;
+	overflow: hidden;
+	bottom: 50px;
+	width: 150px;
+	height: 50px;
+	background-color: red;
+	border-radius: 40px;
+	letter-spacing: 8px;
+	font-weight: bold;
+	color: green;
+    text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+
+
+}
+.button__button span{
+	position: relative;
+	z-index: 2 ;
+}
+.button__button:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;top: 0; left: 0;
+	background-color: yellow;
+	transition: all 0.3s ease 0s;
+	transform: scale(0);
+
+}
+.button__button:hover{
+color: red;
+}
+.button__button:hover:before {
+	transform: scale(1);
+
+}
+.block__text span{
+	position: relative;
+	z-index: 3;
+}
+.block__text:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;top: 0; left: 0;
+	background-color: yellow;
+	transition: all 0.3s ease 0s;
+	transform: scale(0);
+
+
+}
+.block__text:hover{
+	color: red;
+
+}
+.block__text:hover:before {
+	transform: scale(1);
+
+}
+.link{
+	color: green;
+}
+.link__2{
+	color: green;
+}
+.link:hover{
+	text-decoration: underline;
+	color: black;
+}
+.link__2:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+
