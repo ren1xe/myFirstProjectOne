@@ -16,7 +16,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .body{
 	color: white;
 
-	background-image:url("../img/icons/Spider-man_Marvel_Heroes_comics_Red_background_605709_1920x1080.jpg");
+	background:url("../img/icons/Spider-man_Marvel_Heroes_comics_Red_background_605709_1920x1080.jpg") no-repeat ;
+
 
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -74,7 +75,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 	position: absolute;
 	width: 100%;
 	height: 100%;top: 0; left: 0;
-	background-color: yellow;
+	background-color: blue;
 	transition: all 0.3s ease 0s;
 	transform: scale(0);
 
@@ -95,7 +96,7 @@ color: red;
 	position: absolute;
 	width: 100%;
 	height: 100%;top: 0; left: 0;
-	background-color: yellow;
+	background-color: blue;
 	transition: all 0.3s ease 0s;
 	transform: scale(0);
 
@@ -110,10 +111,10 @@ color: red;
 
 }
 .link{
-	color: green;
+	color: white;
 }
 .link__2{
-	color: green;
+	color: white;
 }
 .link:hover{
 	text-decoration: underline;
@@ -123,5 +124,95 @@ color: red;
 	text-decoration: underline;
 	color: black;
 }
+.name{
+	position: relative;
+	left: 200px;
+	top: 50px;
+	overflow: hidden;
+    color: white;
+
+}
+.password{
+	position: relative;
+	left: 200px;
+	top: 70px;
+	overflow: hidden;
+	color: white;
+}
+.in__name{
+	color: blue;
+	width: 100px;
+	height: 30px;
+	border-radius: 100px;
+	background: red;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+.in__pass{
+	color: blue;
+	width: 100px;
+	height: 30px;
+	border-radius: 100px;
+	background: red;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+.button__2{
+	overflow: hidden;
+	position: relative;
+	left: 200px;
+	top: 95px;
+	width: 120px;
+	height: 40px;
+	border-radius: 200px;
+	background: red;
+	letter-spacing: 8px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: white;
+	transition: all 0.3s ease 0s;
+}
+.p__name{
+	letter-spacing: 2px;
+
+
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.p__pass{
+	letter-spacing: 2px;
+
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.button__2 span{
+	position: relative;
+	z-index: 2;
+}
+.button__2:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;top: 0; left: 0;
+	background-color: blue;
+	transition: all 0.3s ease 0s;
+	transform: scale(0);
+}
+.button__2:hover{
+	color: red;
+}
+.button__2:hover:before{
+	transform: scale(1);
+}
+
 
 
