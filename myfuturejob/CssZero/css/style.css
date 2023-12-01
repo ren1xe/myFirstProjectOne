@@ -1,0 +1,77 @@
+
+html, body {
+  font-family: Lato, sans-serif;
+  color: #424551;
+  line-height: 160%;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.burger {
+  display: none;
+}
+
+.main__about {
+  padding: 180px 0 160px;
+}
+
+.main__directions {
+  padding-bottom: 180px;
+}
+
+.main__cert {
+  margin-bottom: -46px;
+}
+
+.main__team {
+  padding: 160px 0px 180px;
+}
+
+.main__testimonials {
+  padding-bottom: 195px;
+}
+
+.main__companies {
+  padding-bottom: 177px;
+}
+
+.main__program {
+  padding: 115px 0 185px;
+}
+
+.main__blog {
+  padding-bottom: 200px;
+}
+
+.main__info {
+  padding-bottom: 180px;
+}
+
+.main__questions {
+  padding-bottom: 180px;
+}
+
+.button {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 52px;
+  padding: 0 40px;
+  color: #fff;
+  border-radius: 4px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  white-space: nowrap;
+  transition: .3s;
+}
+
